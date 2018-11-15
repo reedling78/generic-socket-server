@@ -27,16 +27,16 @@ io.on('connection', function(socket){
       io.emit('reedonly', data);
     });
 
-    socket.on('brianonly', function(data){
-      io.emit('brianonly', data);
+    socket.on('dev1', function(data){
+      io.emit('dev1', data);
     });
 
-    socket.on('hadionly', function(data){
-      io.emit('hadionly', data);
+    socket.on('dev2', function(data){
+      io.emit('dev2', data);
     });
 
-    socket.on('dilliononly', function(data){
-      io.emit('dilliononly', data);
+    socket.on('dev3', function(data){
+      io.emit('dev3', data);
     });
 
     socket.on('demo1', function(data){
