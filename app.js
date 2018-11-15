@@ -23,6 +23,34 @@ io.on('connection', function(socket){
         io.emit('contentcontroller', data);
     });
 
+    socket.on('reedonly', function(data){
+      io.emit('reedonly', data);
+    });
+
+    socket.on('brianonly', function(data){
+      io.emit('brianonly', data);
+    });
+
+    socket.on('hadionly', function(data){
+      io.emit('hadionly', data);
+    });
+
+    socket.on('dilliononly', function(data){
+      io.emit('dilliononly', data);
+    });
+
+    socket.on('demo1', function(data){
+      io.emit('demo1', data);
+    });
+
+    socket.on('demo2', function(data){
+      io.emit('demo2', data);
+    });
+
+    socket.on('demo3', function(data){
+      io.emit('demo3', data);
+    });
+
   });
 
 
